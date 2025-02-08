@@ -10,7 +10,7 @@ const first_button = document.getElementById('first_button')
 if (first_button) {
   first_button.addEventListener('click', () => {
     const question = confirm(
-      'хотите отправится на поисковую страницу с rublcon?'
+      'хотите   отправится на поисковую страницу с rublcon?'
     )
     if (question == true) {
       window.location.href =
